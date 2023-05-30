@@ -1,0 +1,126 @@
+body{
+	background: #F5F4EB;
+}
+
+header{
+	background-color: #000000;
+	text-align: Left;
+}
+
+.caja{
+	width: 100%;
+	position: relative;
+	margin: 0px auto;
+}
+
+nav{
+	position: absolute;
+	text-align: right;
+	top: 55px;
+	left: 264px;
+	right: 48px;
+	bottom: 0px;
+}
+
+nav li{
+	display: inline;
+	margin: 0px 20px 0px 20px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #F5F4EB;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #46AF45;
+}
+
+div.Destacado{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #46AF45;
+	color: #F5F4EB;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* ^^^ Headers */
+
+main > div > p{
+	background: #B00B69;
+}
+
+.lista{
+	margin-top: 30px;
+	margin-left: 60px;
+	margin-bottom: 30px;
+}
+
+.lista li{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+	background: #46AF45;
+	color: rgba(245, 244, 235, 255);
+	width: 95%;
+	vertical-align: top;
+	box-sizing:border-box;
+	border: 5px none #46AF45;
+	border-radius: 10px 10px 10px 10px;
+	transition: 0.125s all;
+	cursor: pointer;
+	opacity: 80%;
+	box-shadow: inset 0px 0px 15px #F5F4EB;
+}
+
+ul > li > h2{
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+ul > li > p{
+	text-align: left;
+	font-size: 22px;
+	margin: 0px 1em 1em 1em;
+}
+
+.imagen{
+	width: calc(340px - (1px * 10));
+	float: left;
+	margin: 0px 1em 1em 1em;
+	box-shadow: 1px 1px 5px 1px #000000, -1px -1px 5px 1px #000000, -1px 1px 5px 1px #000000, 1px -1px 5px 1px #000000;
+}
+
+.lista li:hover{
+	border-color: #46AF45;
+	transform: scale(1.05);
+	opacity: 100%;
+	box-shadow: 1px 1px 5px 3px #46AF45, -1px -1px 5px 3px #46AF45, -1px 1px 5px 3px #46AF45, 1px -1px 5px 3px #46AF45;
+}
+
+/* vvv Pie de pagina*/
+
+footer{
+	padding-top: 100px;
+	background: url(imagen/BG.png);
+	text-align: center;
+}
+
+.copyright{
+	font-size: 12px;
+	color: #F5F4EB;
+	padding-bottom: 30px;
+}
+
+@media screen and (max-width:480px){
+	body{
+		background: #000000;
+	}
+}

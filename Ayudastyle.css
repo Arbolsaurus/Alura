@@ -1,0 +1,207 @@
+header{
+	background-color: #000000;
+	text-align: Left;
+}
+
+.caja{
+	width: 100%;
+	position: relative;
+	margin: 0px auto;
+}
+
+nav{
+	position: absolute;
+	text-align: right;
+	top: 55px;
+	left: 264px;
+	right: 48px;
+	bottom: 0px;
+}
+
+nav li{
+	display: inline;
+	margin: 0px 20px 0px 20px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #F5F4EB;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #46AF45;
+}
+
+div.Destacado{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #46AF45;
+	color: #F5F4EB;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.Game{
+	width: 100%;
+	border-top: 10px;
+	border-bottom: 10px;
+	border-style: solid;
+	border-color: #46AF45;
+}
+
+.elementos{
+	margin-top: 75px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 75px;
+}
+
+.elementos li{
+	background: #FFFFFF;
+	display: inline-block;
+	text-align: center;
+	width: 27%;
+	vertical-align: top;
+	margin: 0px 3%;
+	box-sizing:border-box;
+	border: 5px solid #46AF45;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.elementos li:hover{
+	border-color: #000000;
+	transform: scale(1.1);
+}
+
+.elementos li:hover h2{
+	transform: scale(1.1);
+}
+
+.elementos li:active{
+	border-color: #46AF45;
+}
+
+.elementos h2{
+	font-size: 24px;
+	font-weight: Bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.Descripcion{
+	font-size: 20px;
+	margin-top: 10px;
+	color: #F5F4EB;
+	background: #46AF45;
+}
+
+.imagen{
+	width: 90%;
+}
+
+footer{
+	padding-top: 100px;
+	background: url(imagen/BG.png);
+	text-align: center;
+}
+
+.copyright{
+	font-size: 12px;
+	color: #F5F4EB;
+	padding-bottom: 30px;
+}
+
+body{
+	background: #F5F4EB;
+}
+
+main{
+	margin: 40px 40px;
+}
+
+form{
+	margin: 40px 0px;
+}
+
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 0px 0px 10px;
+}
+
+.info{
+	display: block;
+	margin: 0px 0px 20px;
+	padding: 5px 20px;
+	width: 50%;
+}
+
+form fieldset{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.chechbox{
+	margin: 40px;
+}
+
+.seleccion{
+	color: #46AF45;
+}
+
+.Enviar{
+	background: #000000;
+	color: #F5F4EB;
+	width: 120px;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	padding: 15px 0px;
+	box-sizing:border-box;
+	border: 3px solid #000000;
+	border-radius: 10px 10px 10px 10px;
+	transition: 0.25s all;
+	cursor: pointer;
+}
+
+.Enviar:hover{
+	box-sizing:border-box;
+	border: 3px solid #46AF45;
+	border-radius: 10px 10px 10px 10px;
+	transform: scale(1.1);
+}
+
+table{
+	margin: 40px 40px;
+	position: absolute;
+	top: 30%;
+	left: 70%;
+}
+
+th{
+	background: #000000;
+	color: #F5F4EB;
+	font-weight: bold;
+}
+
+td{
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

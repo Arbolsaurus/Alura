@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+
+		<title> 540DS - Ayuda </title>
+
+		<link rel="stylesheet" href="Ayudastyle.css">
+		<link rel="stylesheet" href="reset.css">
+
+	</head>
+
+	<body>
+
+		<header>
+
+			<div class="caja">
+
+				<a href="540DS.html"><h1><img src="imagen/540DS.png" alt="540DS_Logo"></h1></a>
+
+				<nav>
+
+					<ul>
+
+						<li><a href="Juegos.html">Juegos</a></li>
+						<li><a href="SobreNosotros.html">Sobre nosotros</a></li>
+						<li><a href="Ayuda.html">Ayuda</a></li>
+
+					</ul>
+
+				</nav>
+
+			</div>
+
+		</header>
+
+	<body>
+
+		<div class="Destacado">
+
+			<p>Ayuda</p>
+
+		</div>
+
+		<main>
+
+			<table>
+
+				<thead>
+
+					<tr>
+						<th>Dia</th>
+						<th>Hora</th>
+					</tr>
+
+				</thead>
+
+				<tbody>
+
+					<tr>
+						<td>Lunes</td>
+						<td>~20:00hrs</td>
+					</tr>
+
+					<tr>
+						<td>Miercoles</td>
+						<td>~20:00hrs</td>
+					</tr>
+
+					<tr>
+						<td>Viernes</td>
+						<td>~20:00hrs</td>
+					</tr>
+
+				</tbody>
+
+			</table>
+
+			<form>
+
+				<label for="nombre">¿Cual es tu nombre?</label>
+				<input type="text" id="nombre" class="info" required>
+
+				<label for="pregunta">¿Cual es tu pregunta?</label>
+				<input type="text" id="pregunta" class="info" required>
+
+				<label for="correoelectronico">¿Cual es tu correo electronico?</label>
+				<input type="email" id="correoelectronico" class="info" required placeholder="Ex; email@dominio.com">
+
+				<label for="Notas Adicionales">Notas Adicionales (opcional)</label>
+				<textarea cols="70" rows="5" id="Notas Adicionales" class="info"></textarea>
+
+				<fieldset>
+
+					<legend class="seleccion" id="seleccion">Selecciona la clase de tu problema:</legend>
+
+					<label for="Recomendaciones"><input type="radio" name="Ayuda" value="Recomendaciones" id="Recomendaciones" checked>Recomendaciones</label>
+
+					<label for="Adquisicion de un producto"><input type="radio" name="Ayuda" value="Adquisicion de un producto" id="Adquisicion de un producto">Adquisicion de un producto</label>
+
+					<label for="Errores/Fallas en un producto"><input type="radio" name="Ayuda" value="Errores/Fallas en un producto" id="Errores/Fallas en un producto">Errores/Fallas en un producto</label>
+
+				</fieldset>
+
+				<fieldset>
+
+					<legend>Selecciona un producto</legend>
+
+					<select>
+
+						<option>The Leyend Of Yito</option>
+						<option>Proyecto Konrad</option>
+						<option>Jardines</option>
+
+					</select>
+
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Desea recibir futuras actualizaciones de 540DS?</label>
+
+				<input type="submit" value="Enviar" class="Enviar">
+
+			</form>
+
+		</main>
+
+		<footer>
+
+			<img src="imagen/540DS.png" alt="540DS_Logo">
+			<p class="copyright">&copy; Copyright 540 Doors Studios - 2023</p>
+
+		</footer>
+
+	</body>
+
+</html>

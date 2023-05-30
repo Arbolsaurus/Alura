@@ -1,0 +1,236 @@
+body{
+	background: linear-gradient(160deg, #FFFFFF 60%, #46AF45);
+}
+
+header{
+	background-color: #000000;
+	text-align: Left;
+}
+
+.caja{
+	width: 100%;
+	position: relative;
+	margin: 0px auto;
+}
+
+nav{
+	position: absolute;
+	text-align: right;
+	top: 55px;
+	left: 264px;
+	right: 48px;
+	bottom: 0px;
+}
+
+nav li{
+	display: inline;
+	margin: 0px 20px 0px 20px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #F5F4EB;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #46AF45;
+}
+
+div.Destacado{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #46AF45;
+	color: #F5F4EB;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.Arbusto1{
+	width: 80px;
+	float: left;
+	margin: 0px 4px 0px 4px;
+}
+
+.Arbusto2{
+	width: 80px;
+	float: right;
+	margin: 0px 4px 0px 4px;
+}
+
+.SobreNosotros{
+	margin: 20px 40px;
+	font-size: 18px;
+	text-align: center;
+	background: #F5F4EB;
+	box-sizing:border-box;
+	border: 10px solid #F5F4EB;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.SobreNosotros p{
+	margin-bottom: 1em;
+}
+
+.SobreNosotros Strong{
+	font-weight: bold;
+}
+
+.SobreNosotros em{
+	font-style: italic;
+}
+
+.mapa{
+	padding-top: 1em;
+	margin: 20px 40px;
+	font-size: 18px;
+	text-align: center;
+	background: #F5F4EB;
+	box-sizing:border-box;
+	border: 10px solid #F5F4EB;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.mapa h2{
+	font-size: 26px;
+	margin-bottom: 1em;
+}
+
+h2:before{
+	content:"📍 ";
+}
+
+h2:after{
+	content:" 📍";
+}
+
+.mapa p{
+	margin-bottom: 2em;
+}
+
+.mapa Strong{
+	font-weight: bold;
+}
+
+.mapaguamuchil{
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 96%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	height: 96%;
+}
+
+/*Dios santo asi se ponian los comentarios*/
+
+ul{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.elementos{
+	margin-top: 40px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	/*background: radial-gradient(#F5F4EB, #FFFFFF);*/
+}
+
+.elementos li{
+	background: #FFFFFF;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	vertical-align: top;
+	margin: 0px 2.3%;
+	box-sizing:border-box;
+	border: 5px solid #46AF45;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.Descripcion{
+	font-size: 20px;
+	padding-top: 4px;
+	color: #F5F4EB;
+	background: #46AF45;
+}
+
+.imagen{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 90%;
+}
+
+.dif{
+	width: 90%;
+	margin: 0px auto;
+	margin-bottom: 5%;
+	padding-bottom: 2em;
+	vertical-align: top;
+	/*background: linear-gradient(160deg, #FFFFFF 60%, #46AF45);*/
+	background: #F5F4EB;
+	box-sizing:border-box;
+	border: 5px solid #F5F4EB;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.dif p{
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.dif li{
+	font-size: 24px;
+	padding-left: 20%;
+	margin-bottom: 1em;
+}
+
+.lista{
+	margin-top: 2.5%;
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.items:before{
+	content:"• ";
+}
+
+.items:first-letter{
+	color: #46AF45;
+}
+
+.items:first-child{
+	color: #46AF45;
+}
+
+.items:nth-child(3){
+	color: #46AF45;
+}
+
+.items:last-child{
+	color: #46AF45;
+}
+
+.imgmap{
+	width: 60%;
+}
+
+/*Dios santo asi se ponian los comentarios*/
+
+footer{
+	padding-top: 100px;
+	background: url(imagen/BG.png);
+	text-align: center;
+}
+
+.copyright{
+	font-size: 12px;
+	color: #F5F4EB;
+	padding-bottom: 30px;
+}
